@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Nunito, serif;
+}
+
+
+header{
+    background-color: brown;
+}
+
+h1{
+    font-family: Tangerine;
+    letter-spacing: 15px;
+    font-size: 5rem;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#container{
+    width: 80%;
+    margin: auto;
+    padding: 1em;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#navbar{
+    width: 100%;
+    margin-top: 2em;
+
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    background-color: brown;
+    justify-content: space-evenly;
+}
+
+li{
+    font-size: 1rem;
+    padding: 1em;
+    cursor: pointer;
+    color: whitesmoke;
+    font-family: Nunito, serif;
+    font-weight: 700;
+}
+
+li:hover{
+    text-decoration: underline;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.home-img{
+    display: block;
+    margin: auto;
+}
+
+#content{
+    width: 80%;
+    margin: auto;
+}
+
+#description{
+    padding: 1em 3em;
+}
+
+#description h2{
+    color: brown;
+}
+
+#menu-items{
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+}
+
+.menu-div{
+    border: solid 5px brown;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.menu-div img{
+    display: block;
+}
+
+.menu-div h2,
+.contact-div h2{
+    text-align: center;
+}
+
+#contacts-container{
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+}
+
+.contact-div{
+    border: solid 5px brown;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
